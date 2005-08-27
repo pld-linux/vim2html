@@ -1,0 +1,12 @@
+--- vim2html-1.46/vim2html.orig	2005-08-27 21:24:57.000000000 +0200
++++ vim2html-1.46/vim2html	2005-08-27 21:25:18.000000000 +0200
+@@ -16,7 +16,8 @@
+ 
+ #### begin user settings ####
+ 
+-VIM_HOME="`find /usr/share/vim -type d -mindepth 1 -maxdepth 1|sort|tail -1`"
++
++VIM_HOME="`find /usr/share/vim -mindepth 1 -maxdepth 1 -type d |sort|head -1`"
+     # normally, no need to change this
+ 
+ SYNTAX="$VIM_HOME/syntax/2html.vim"
