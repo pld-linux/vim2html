@@ -1,13 +1,14 @@
 Summary:	Vim-editable file converter to HTML
 Summary(pl):	Konwerter edytowalnych plików Vima do formatu HTML
 Name:		vim2html
-Version:	1.42
+Version:	1.46
 Release:	1
 License:	GPL v2
 Group:		Applications/Text
-Source0:	http://norlug.org/~chipster/download_handler/cat5/%{name}-%{version}.tar.gz
-# Source0-md5:	da1a1c79b17181fdf3d69f2417f90e0b
-URL:		http://norlug.org/~chipster/vim2html
+Source0:	http://norlug.org/~chipster/resources/vim2html/%{name}-%{version}.tar.gz
+# Source0-md5:	4fcccd28b2a28519bdc65e90120c7204
+URL:		http://norlug.org/~chipster/vim2html/
+Patch0:		%{name}-VIM_HOME.patch
 Requires:	tidy
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -28,6 +29,7 @@ Internecie.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
