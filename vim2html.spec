@@ -1,5 +1,5 @@
 Summary:	Vim-editable file converter to HTML
-Summary(pl):	Konwerter edytowalnych plikÛw Vima do formatu HTML
+Summary(pl.UTF-8):   Konwerter edytowalnych plik√≥w Vima do formatu HTML
 Name:		vim2html
 Version:	1.46
 Release:	1
@@ -20,11 +20,11 @@ colorization (customizable) and Syntax Highlighting. This program
 provides an excellent method of presenting your
 programs/HTML/scripts/etc. on the web.
 
-%description -l pl
-vim2html jest ma≥ym programem, ktÛry eksportuje kaødy edytowalny przez
-Vima plik do dobrze sformatowanego HTML-a symuluj±c sesjÍ Vima. Pe≥ne
-wsparcie dla koloryzowania Vima i pod∂wietlania sk≥adni. Program
-dostarcza doskona≥ej metody prezentacji programÛw/HTML-a/skryptÛw/itp. w
+%description -l pl.UTF-8
+vim2html jest ma≈Çym programem, kt√≥ry eksportuje ka≈ºdy edytowalny przez
+Vima plik do dobrze sformatowanego HTML-a symulujƒÖc sesjƒô Vima. Pe≈Çne
+wsparcie dla koloryzowania Vima i pod≈õwietlania sk≈Çadni. Program
+dostarcza doskona≈Çej metody prezentacji program√≥w/HTML-a/skrypt√≥w/itp. w
 Internecie.
 
 %prep
