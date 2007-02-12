@@ -1,5 +1,5 @@
 Summary:	Vim-editable file converter to HTML
-Summary(pl.UTF-8):   Konwerter edytowalnych plików Vima do formatu HTML
+Summary(pl.UTF-8):	Konwerter edytowalnych plików Vima do formatu HTML
 Name:		vim2html
 Version:	1.46
 Release:	1
